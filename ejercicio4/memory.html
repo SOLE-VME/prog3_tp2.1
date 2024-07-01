@@ -18,11 +18,25 @@
         <section class="section">
             <div class="container">
                 <h1 class="title">Juego de Memoria</h1>
-                <button id="restart-button" class="button is-primary">
-                    Reiniciar Juego
-                </button>
                 <div class="fixed-grid has-4-cols">
                     <div id="game-board" class="grid"></div>
+                </div>
+                <div class="controls">
+                    <button id="restart-button" class="button is-primary">
+                        Reiniciar Juego
+                    </button>
+                    <div class="move-counter">
+                        <span>Movimientos:</span>
+                        <span id="move-count">0</span>
+                    </div>
+                    <div class="timer">
+                        <span>Temporizador:</span>
+                        <span id="timer">0</span>
+                    </div>
+                    <div class="score">
+                        <span>Puntuación:</span>
+                        <span id="score">0</span>
+                    </div>
                 </div>
             </div>
         </section>
