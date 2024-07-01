@@ -43,3 +43,16 @@ img {
     max-height: 100%;
     object-fit: contain;
 }
+
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move-counter, .timer, .score {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
